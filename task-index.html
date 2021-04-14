@@ -70,10 +70,10 @@
 
 
     <!-- Task Column Session-->
-    <div class="task-column-session d-flex flex-column align-items-center">
+    <div class="task-column-session d-flex flex-wrap flex-row justify-content-center">
 
-
-        <div class="card border-success mb-3 " style="max-width: 50rem; max-height: 34.25rem;">
+        <!-- Task List 1-->
+        <div class="task-list-kit card border-success mb-3 ">
 
             <div class="card-header bg-transparent">
                 <span style="font-size: 1.2rem; font-weight: bold;">Study</span>
@@ -90,7 +90,7 @@
 
             </div>
 
-            <div class="task-column-session-body card-body text-success" style="overflow-y: scroll; overflow-x: hidden">
+            <div class="task-column-session-body card-body text-success" style="overflow-y: scroll;">
 
                 <!-- Task Card 1 -->
                 <div class="task-card-kit ">
@@ -241,7 +241,877 @@
 
 
         </div>
+
+        <!-- Task List 1-->
+        <div class="task-list-kit card border-success mb-3 ">
+
+            <div class="card-header bg-transparent">
+                <span style="font-size: 1.2rem; font-weight: bold;">Study</span>
+                <div class="btn-group float-right">
+                    <a class="navbar-ellipsis-h float-right" href="# " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <button class="dropdown-item" type="button">Rename List</button>
+                        <button class="dropdown-item" type="button">Sorting</button>
+                        <button class="dropdown-item" type="button">Delete List</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="task-column-session-body card-body text-success" style="overflow-y: scroll;">
+
+                <!-- Task Card 1 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">IN PROGRESS</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="fas fa-star "></i></button>
+                    </div>
+
+                    <div class="card bg-light mb-3 ">
+                        <div class="card-body " data-toggle="modal" data-target="#ViewCard1Modal">
+                            <h5 class="card-title ">Learn Figma</h5>
+                            <p class="card-text ">This is Task 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Task Card 2 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">REVIEW</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="fas fa-star "></i></button>
+
+                    </div>
+
+                    <div class="card bg-light mb-3 ">
+                        <div class="card-body " data-toggle="modal" data-target="#ViewCard1Modal">
+                            <h5 class="card-title ">Done Main Page Layout</h5>
+                            <p class="card-text ">This is Task 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.ipsum dolor sit amet, consectetur adipisicing elit</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Task Card 3 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">DONE</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="far fa-star "></i></button>
+
+                    </div>
+
+                    <div class="card bg-light mb-3 ">
+                        <div class="card-body " data-toggle="modal" data-target="#ViewCard1Modal">
+                            <h5 class="card-title ">Learn Bootstrap</h5>
+                            <p class="card-text ">This is Task 3. Lorem ipsum dolor sit ame sed do eiusmod tempor. ...</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Task Card 4 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">IN PROGRESS</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="far fa-star "></i></button>
+
+                    </div>
+
+                    <div class="card bg-light mb-3 " data-toggle="modal" data-target="#ViewCard1Modal">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Learn CSS</h5>
+                            <p class="card-text ">This is card 4. Lorem ipsum dolor sit ame sed do eiusmod tempor.</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Task Card 5 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">DONE</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="far fa-star"></i></button>
+
+                    </div>
+
+                    <div class="card bg-light mb-3 ">
+                        <div class="card-body " data-toggle="modal" data-target="#ViewCard1Modal">
+                            <h5 class="card-title ">Learn HTML</h5>
+                            <p class="card-text ">This is Task 5. Lorem ipsum dolor sit ame sed do eiusmod tempor. ...</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="card-footer bg-transparent text-center ">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn" data-toggle="modal" data-target="#AddNewCardModal">+ Add New Card</button>
+            </div>
+
+
+
+        </div>
+
+        <!-- Task List 1-->
+        <div class="task-list-kit card border-success mb-3 ">
+
+            <div class="card-header bg-transparent">
+                <span style="font-size: 1.2rem; font-weight: bold;">Study</span>
+                <div class="btn-group float-right">
+                    <a class="navbar-ellipsis-h float-right" href="# " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <button class="dropdown-item" type="button">Rename List</button>
+                        <button class="dropdown-item" type="button">Sorting</button>
+                        <button class="dropdown-item" type="button">Delete List</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="task-column-session-body card-body text-success" style="overflow-y: scroll;">
+
+                <!-- Task Card 1 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">IN PROGRESS</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="fas fa-star "></i></button>
+                    </div>
+
+                    <div class="card bg-light mb-3 ">
+                        <div class="card-body " data-toggle="modal" data-target="#ViewCard1Modal">
+                            <h5 class="card-title ">Learn Figma</h5>
+                            <p class="card-text ">This is Task 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Task Card 2 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">REVIEW</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="fas fa-star "></i></button>
+
+                    </div>
+
+                    <div class="card bg-light mb-3 ">
+                        <div class="card-body " data-toggle="modal" data-target="#ViewCard1Modal">
+                            <h5 class="card-title ">Done Main Page Layout</h5>
+                            <p class="card-text ">This is Task 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.ipsum dolor sit amet, consectetur adipisicing elit</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Task Card 3 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">DONE</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="far fa-star "></i></button>
+
+                    </div>
+
+                    <div class="card bg-light mb-3 ">
+                        <div class="card-body " data-toggle="modal" data-target="#ViewCard1Modal">
+                            <h5 class="card-title ">Learn Bootstrap</h5>
+                            <p class="card-text ">This is Task 3. Lorem ipsum dolor sit ame sed do eiusmod tempor. ...</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Task Card 4 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">IN PROGRESS</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="far fa-star "></i></button>
+
+                    </div>
+
+                    <div class="card bg-light mb-3 " data-toggle="modal" data-target="#ViewCard1Modal">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Learn CSS</h5>
+                            <p class="card-text ">This is card 4. Lorem ipsum dolor sit ame sed do eiusmod tempor.</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Task Card 5 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">DONE</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="far fa-star"></i></button>
+
+                    </div>
+
+                    <div class="card bg-light mb-3 ">
+                        <div class="card-body " data-toggle="modal" data-target="#ViewCard1Modal">
+                            <h5 class="card-title ">Learn HTML</h5>
+                            <p class="card-text ">This is Task 5. Lorem ipsum dolor sit ame sed do eiusmod tempor. ...</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="card-footer bg-transparent text-center ">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn" data-toggle="modal" data-target="#AddNewCardModal">+ Add New Card</button>
+            </div>
+
+
+
+        </div>
+
+        <!-- Task List 1-->
+        <div class="task-list-kit card border-success mb-3 ">
+
+            <div class="card-header bg-transparent">
+                <span style="font-size: 1.2rem; font-weight: bold;">Study</span>
+                <div class="btn-group float-right">
+                    <a class="navbar-ellipsis-h float-right" href="# " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <button class="dropdown-item" type="button">Rename List</button>
+                        <button class="dropdown-item" type="button">Sorting</button>
+                        <button class="dropdown-item" type="button">Delete List</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="task-column-session-body card-body text-success" style="overflow-y: scroll;">
+
+                <!-- Task Card 1 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">IN PROGRESS</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="fas fa-star "></i></button>
+                    </div>
+
+                    <div class="card bg-light mb-3 ">
+                        <div class="card-body " data-toggle="modal" data-target="#ViewCard1Modal">
+                            <h5 class="card-title ">Learn Figma</h5>
+                            <p class="card-text ">This is Task 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Task Card 2 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">REVIEW</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="fas fa-star "></i></button>
+
+                    </div>
+
+                    <div class="card bg-light mb-3 ">
+                        <div class="card-body " data-toggle="modal" data-target="#ViewCard1Modal">
+                            <h5 class="card-title ">Done Main Page Layout</h5>
+                            <p class="card-text ">This is Task 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.ipsum dolor sit amet, consectetur adipisicing elit</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Task Card 3 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">DONE</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="far fa-star "></i></button>
+
+                    </div>
+
+                    <div class="card bg-light mb-3 ">
+                        <div class="card-body " data-toggle="modal" data-target="#ViewCard1Modal">
+                            <h5 class="card-title ">Learn Bootstrap</h5>
+                            <p class="card-text ">This is Task 3. Lorem ipsum dolor sit ame sed do eiusmod tempor. ...</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Task Card 4 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">IN PROGRESS</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="far fa-star "></i></button>
+
+                    </div>
+
+                    <div class="card bg-light mb-3 " data-toggle="modal" data-target="#ViewCard1Modal">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Learn CSS</h5>
+                            <p class="card-text ">This is card 4. Lorem ipsum dolor sit ame sed do eiusmod tempor.</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Task Card 5 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">DONE</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="far fa-star"></i></button>
+
+                    </div>
+
+                    <div class="card bg-light mb-3 ">
+                        <div class="card-body " data-toggle="modal" data-target="#ViewCard1Modal">
+                            <h5 class="card-title ">Learn HTML</h5>
+                            <p class="card-text ">This is Task 5. Lorem ipsum dolor sit ame sed do eiusmod tempor. ...</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="card-footer bg-transparent text-center ">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn" data-toggle="modal" data-target="#AddNewCardModal">+ Add New Card</button>
+            </div>
+
+
+
+        </div>
+
+        <!-- Task List 1-->
+        <div class="task-list-kit card border-success mb-3 ">
+
+            <div class="card-header bg-transparent">
+                <span style="font-size: 1.2rem; font-weight: bold;">Study</span>
+                <div class="btn-group float-right">
+                    <a class="navbar-ellipsis-h float-right" href="# " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <button class="dropdown-item" type="button">Rename List</button>
+                        <button class="dropdown-item" type="button">Sorting</button>
+                        <button class="dropdown-item" type="button">Delete List</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="task-column-session-body card-body text-success" style="overflow-y: scroll;">
+
+                <!-- Task Card 1 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">IN PROGRESS</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="fas fa-star "></i></button>
+                    </div>
+
+                    <div class="card bg-light mb-3 ">
+                        <div class="card-body " data-toggle="modal" data-target="#ViewCard1Modal">
+                            <h5 class="card-title ">Learn Figma</h5>
+                            <p class="card-text ">This is Task 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Task Card 2 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">REVIEW</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="fas fa-star "></i></button>
+
+                    </div>
+
+                    <div class="card bg-light mb-3 ">
+                        <div class="card-body " data-toggle="modal" data-target="#ViewCard1Modal">
+                            <h5 class="card-title ">Done Main Page Layout</h5>
+                            <p class="card-text ">This is Task 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.ipsum dolor sit amet, consectetur adipisicing elit</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Task Card 3 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">DONE</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="far fa-star "></i></button>
+
+                    </div>
+
+                    <div class="card bg-light mb-3 ">
+                        <div class="card-body " data-toggle="modal" data-target="#ViewCard1Modal">
+                            <h5 class="card-title ">Learn Bootstrap</h5>
+                            <p class="card-text ">This is Task 3. Lorem ipsum dolor sit ame sed do eiusmod tempor. ...</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Task Card 4 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">IN PROGRESS</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="far fa-star "></i></button>
+
+                    </div>
+
+                    <div class="card bg-light mb-3 " data-toggle="modal" data-target="#ViewCard1Modal">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Learn CSS</h5>
+                            <p class="card-text ">This is card 4. Lorem ipsum dolor sit ame sed do eiusmod tempor.</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Task Card 5 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">DONE</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="far fa-star"></i></button>
+
+                    </div>
+
+                    <div class="card bg-light mb-3 ">
+                        <div class="card-body " data-toggle="modal" data-target="#ViewCard1Modal">
+                            <h5 class="card-title ">Learn HTML</h5>
+                            <p class="card-text ">This is Task 5. Lorem ipsum dolor sit ame sed do eiusmod tempor. ...</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="card-footer bg-transparent text-center ">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn" data-toggle="modal" data-target="#AddNewCardModal">+ Add New Card</button>
+            </div>
+
+
+
+        </div>
+
+        <!-- Task List 1-->
+        <div class="task-list-kit card border-success mb-3 ">
+
+            <div class="card-header bg-transparent">
+                <span style="font-size: 1.2rem; font-weight: bold;">Study</span>
+                <div class="btn-group float-right">
+                    <a class="navbar-ellipsis-h float-right" href="# " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <button class="dropdown-item" type="button">Rename List</button>
+                        <button class="dropdown-item" type="button">Sorting</button>
+                        <button class="dropdown-item" type="button">Delete List</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="task-column-session-body card-body text-success" style="overflow-y: scroll;">
+
+                <!-- Task Card 1 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">IN PROGRESS</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="fas fa-star "></i></button>
+                    </div>
+
+                    <div class="card bg-light mb-3 ">
+                        <div class="card-body " data-toggle="modal" data-target="#ViewCard1Modal">
+                            <h5 class="card-title ">Learn Figma</h5>
+                            <p class="card-text ">This is Task 1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Task Card 2 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">REVIEW</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="fas fa-star "></i></button>
+
+                    </div>
+
+                    <div class="card bg-light mb-3 ">
+                        <div class="card-body " data-toggle="modal" data-target="#ViewCard1Modal">
+                            <h5 class="card-title ">Done Main Page Layout</h5>
+                            <p class="card-text ">This is Task 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.ipsum dolor sit amet, consectetur adipisicing elit</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Task Card 3 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">DONE</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="far fa-star "></i></button>
+
+                    </div>
+
+                    <div class="card bg-light mb-3 ">
+                        <div class="card-body " data-toggle="modal" data-target="#ViewCard1Modal">
+                            <h5 class="card-title ">Learn Bootstrap</h5>
+                            <p class="card-text ">This is Task 3. Lorem ipsum dolor sit ame sed do eiusmod tempor. ...</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Task Card 4 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">IN PROGRESS</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="far fa-star "></i></button>
+
+                    </div>
+
+                    <div class="card bg-light mb-3 " data-toggle="modal" data-target="#ViewCard1Modal">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Learn CSS</h5>
+                            <p class="card-text ">This is card 4. Lorem ipsum dolor sit ame sed do eiusmod tempor.</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Task Card 5 -->
+                <div class="task-card-kit ">
+                    <div class="clearfix">
+                        <button type="button " class="status-overlap rounded-pill btn btn-info float-left ">DONE</button>
+                        <button type="button " class="star-overlap btn btn btn-outline-warning float-right "><i class="far fa-star"></i></button>
+
+                    </div>
+
+                    <div class="card bg-light mb-3 ">
+                        <div class="card-body " data-toggle="modal" data-target="#ViewCard1Modal">
+                            <h5 class="card-title ">Learn HTML</h5>
+                            <p class="card-text ">This is Task 5. Lorem ipsum dolor sit ame sed do eiusmod tempor. ...</p>
+
+                            <div class="bg-transparent clearfix ">
+                                <button type="button " class="btn btn-light rounded-pill float-left "><i class="fas fa-clock "></i> 15 APR</button>
+                                <a class="navbar-user float-right " href="# ">
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                    <i class="fas fa-user-circle fa-2x"></i>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="card-footer bg-transparent text-center ">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn" data-toggle="modal" data-target="#AddNewCardModal">+ Add New Card</button>
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
+
+
 
 
 
