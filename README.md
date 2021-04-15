@@ -1,1 +1,1 @@
-# gen-gp3-project
+# gen-gp6-project
